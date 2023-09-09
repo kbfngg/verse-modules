@@ -1,3 +1,5 @@
+using { /Verse.org/Concurrency }
+
 ConcurrencyExtensions<public> := module {
   cancellable_task_state<public> := class<internal><final> {
     var IsCancelledFlag<private>: logic = false
